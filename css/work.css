@@ -1,0 +1,38 @@
+body {
+    display: block;
+    margin: 0;
+}
+.page-section {
+    margin-left: 50%;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    overflow-y: scroll;
+    width: auto;
+}
+.container {
+    position: relative;
+    background: #000000;
+    width: 100%;
+}
+
+.project-link {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.project-link a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #E0FF4F;
+}
+
+img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}

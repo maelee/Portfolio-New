@@ -9,15 +9,22 @@ body {
    font-family: "Lato", Helvetica, Arial, sans-serif;
    color:#333333;
 }
+.myname {
+ margin-top: 20px;
+ margin-bottom: 10px;
+}
 h1 {
  font-family: "Croissant One", Fugaz One, Arial, sans-serif;
  font-size: 64px;
 }
 h2 {
  font-family: "Raleway", Helvetica, Arial, sans-serif;
- font-size:30px;
+ font-size:25px;
  font-weight: normal;
  text-transform: uppercase;
+ text-align: center;
+ margin-top: 0;
+ margin-bottom: 30px;
 }
 p {
  font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -35,6 +42,7 @@ p {
   /* round the edges to a circle with border radius 1/2 container size */
   border-radius: 50%;
   display: block;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto
 }
