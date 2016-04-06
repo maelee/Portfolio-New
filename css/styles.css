@@ -3,11 +3,17 @@ html,
 body {
   overflow-x: hidden;
   width: 100%;
+  height: 100%;
+  margin: 0px;
 }
 
 body {
    font-family: "Lato", Helvetica, Arial, sans-serif;
    color:#333333;
+}
+
+.main {
+  height:100%;
 }
 .myname {
  margin-top: 20px;
@@ -52,18 +58,19 @@ p {
   background-color: #FF6663;
   bottom: 0;
   overflow: hidden;
-  position: fixed;
   left: 0;
   top: 0;
   width: 50%;
+  float:left;
+  height:100%;
 }
 
 .page-navigation {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
+  position: fixed;
+  width:50%;
+  height:100%;
+  margin: 0 auto;
+  padding-top: 100px;
 }
 .page-navigation ul li {
   list-style: none;
@@ -76,13 +83,24 @@ p {
   text-align: center;
 }
 
-/* Section */
-.page-section {
-  margin-left: 50%;
-  padding: 30px;
-  position: absolute;
-  right: 0;
-  overflow-y: scroll;
-  width: auto;
+.page-section .content {
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+  }
+
+.nav-toggle {
+  cursor:pointer;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  padding-right: 0;
 }
 
+/* Section */
+.page-section {
+  right: 0;
+  overflow-y: scroll;
+  width: 50%;
+  float:right;
+}

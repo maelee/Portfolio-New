@@ -12,6 +12,9 @@
   <link type="text/css" rel="stylesheet" href="css/reset.css">
   <link type="text/css" rel="stylesheet" href="css/styles.css" />
   <link type="text/css" rel="stylesheet" href="css/contact.css" />
+  
+  <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+
  </head>
  <!-- Hero -->
   <main role="main" class="main">
@@ -27,6 +30,7 @@
     <aside role="aside" class="page-sidebar">
       <nav role="navigation" class="page-navigation">
         <ul>
+          <h1><li><a href="index.html">Home</a></li></h1>
           <h1><li><a href="work">Work</a></li></h1>
           <h1><li><a href="about.html">About</a></li></h1>
           <h1><li><a href="contact.html">Contact</a></li></h1>
@@ -34,4 +38,11 @@
       </nav>
     </aside>
   </main>
+  <p class="nav-toggle">menu</p>
  </body>
+
+ <script>
+ jQuery(".nav-toggle").click(function () {
+    jQuery("body").toggleClass("nav-open");
+});
+</script>

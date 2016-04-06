@@ -1,35 +1,10 @@
-h1 {
- color:#FF6663;
- text-align: center;
-}
-h3 {
-  margin-top: 40px;
-  margin-bottom: 5px;
-}
-h4 {
-  margin-top: 10px;
-  margin-bottom: 5px;
-}
-
-p {
-  line-height: 10px;
-}
-.contact-text {
-  font-size: 24px;
-}
-.email {
-  text-decoration: none;
-  font-size: 16px;
-  color:#333333;
-  margin-top: 5px;
-}
-
 /* Medium and small screens */
 @media screen and (max-width: 768px) {
   html { font-size: 112%; }
   h1 {
     font-size: 35px;
     text-align: center;
+    padding-right: 50px;
     }
   h2 {
     font-size:20px;
@@ -37,15 +12,12 @@ p {
     margin-bottom: 30px;
     padding-right: 50px;
   }
-  h3, h4 {
-    text-align: center;
-  }
   p {
    font-size:16px;
    line-height: 27px;
    text-align: center;
-   padding-left: 10px;
-   padding-right: 10px;
+   padding-right: 50px;
+
   }
   .avatar {
     width: 100px;
@@ -72,25 +44,16 @@ p {
 
 @media screen and (min-width: 769px) {
   h1 {
-    margin-bottom: 20px;
-  }
-  h3, h4 {
+    font-size: 45px;
     text-align: center;
-    padding-left: 15px;
+    padding-right: 40px;
+  }
+  h2 {
+    padding-right: 40px;
   }
   p {
-   font-size:16px;
-   line-height: 35px;
-   text-align: center;
-   margin-top: 0;
-   padding-left: 15px;
-   padding-right: 15px;
-  }
-  .avatar {
-    padding-top: 15px;
-  }
-  .page-navigation {
-    padding-top: 30px;
+    text-align: center;
+    padding-right: 40px;
   }
   .nav-toggle {
     display: none;
