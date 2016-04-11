@@ -1,5 +1,5 @@
 /* Medium and small screens */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   html { font-size: 112%; }
   h1 {
     font-size: 35px;
@@ -42,7 +42,7 @@
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   h1 {
     font-size: 45px;
     text-align: center;

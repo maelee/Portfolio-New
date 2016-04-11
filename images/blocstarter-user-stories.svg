@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="785px" height="450px" viewBox="0 0 785 450" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>blocstarter-user-stories</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-103.000000, -432.000000)">
+            <g id="blocstarter-user-stories" transform="translate(103.000000, 432.000000)">
+                <g id="Group">
+                    <rect id="Rectangle-2" stroke="#979797" stroke-width="0.5" fill="#38D9F6" x="0" y="0" width="165" height="50"></rect>
+                    <text id="Role" font-family="Roboto-Bold, Roboto" font-size="20" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="10" y="32">Role</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(0.000000, 50.000000)">
+                    <rect id="Rectangle-2" stroke="#979797" stroke-width="0.5" fill="#FFFFFF" x="0" y="0" width="165" height="50"></rect>
+                    <text id="As-a-fundraiser" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#000000">
+                        <tspan x="11" y="32">As a fundraiser</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(0.000000, 100.000000)">
+                    <rect id="Rectangle-2" stroke="#979797" stroke-width="0.5" fill="#FFFFFF" x="0" y="0" width="165" height="50"></rect>
+                    <text id="As-a-fundraiser" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#000000">
+                        <tspan x="11" y="32">As a fundraiser</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(0.000000, 150.000000)">
+                    <rect id="Rectangle-2" stroke="#979797" stroke-width="0.5" fill="#FFFFFF" x="0" y="0" width="165" height="50"></rect>
+                    <text id="As-a-fundraiser" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#000000">
+                        <tspan x="11" y="32">As a fundraiser</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(0.000000, 200.000000)">
+                    <rect id="Rectangle-2" stroke="#979797" stroke-width="0.5" fill="#FFFFFF" x="0" y="0" width="165" height="50"></rect>
+                    <text id="As-a-fundraiser" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#000000">
+                        <tspan x="11" y="32">As a fundraiser</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(0.000000, 250.000000)">
+                    <rect id="Rectangle-2" stroke="#979797" stroke-width="0.5" fill="#FFFFFF" x="0" y="0" width="165" height="50"></rect>
+                    <text id="As-a-donor" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#000000">
+                        <tspan x="11" y="32">As a donor</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(0.000000, 300.000000)">
+                    <rect id="Rectangle-2" stroke="#979797" stroke-width="0.5" fill="#FFFFFF" x="0" y="0" width="165" height="50"></rect>
+                    <text id="As-a-donor" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#000000">
+                        <tspan x="11" y="32">As a donor</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(0.000000, 350.000000)">
+                    <rect id="Rectangle-2" stroke="#979797" stroke-width="0.5" fill="#FFFFFF" x="0" y="0" width="165" height="50"></rect>
+                    <text id="As-a-donor" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#000000">
+                        <tspan x="11" y="32">As a donor</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(0.000000, 400.000000)">
+                    <rect id="Rectangle-2" stroke="#979797" stroke-width="0.5" fill="#FFFFFF" x="0" y="0" width="165" height="50"></rect>
+                    <text id="As-a-donor" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#000000">
+                        <tspan x="11" y="32">As a donor</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(165.000000, 0.000000)">
+                    <rect id="Rectangle-1" stroke="#979797" stroke-width="0.5" fill="#38D9F6" x="0" y="0" width="620" height="50"></rect>
+                    <text id="Task" font-family="Roboto-Bold, Roboto" font-size="20" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="10" y="32">Task</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(165.000000, 50.000000)">
+                    <rect id="Rectangle-1" stroke="#979797" stroke-width="0.5" fill="#FFFFFF" x="0" y="0" width="620" height="50"></rect>
+                    <text id="I-want-to-create-an-" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" fill="#000000">
+                        <tspan x="10" y="32">I want to create an account</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(165.000000, 100.000000)">
+                    <rect id="Rectangle-1" stroke="#979797" stroke-width="0.5" fill="#FFFFFF" x="0" y="0" width="620" height="50"></rect>
+                    <text id="I-want-to-display-my" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" fill="#000000">
+                        <tspan x="10" y="30">I want to display my progress of reaching my monthly and annual goals</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(165.000000, 150.000000)">
+                    <rect id="Rectangle-1" stroke="#979797" stroke-width="0.5" fill="#FFFFFF" x="0" y="0" width="620" height="50"></rect>
+                    <text id="I-want-to-view-a-lis" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" fill="#000000">
+                        <tspan x="10" y="32">I want to view a list of people who donated and how much they gave</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(165.000000, 200.000000)">
+                    <rect id="Rectangle-1" stroke="#979797" stroke-width="0.5" fill="#FFFFFF" x="0" y="0" width="620" height="50"></rect>
+                    <text id="I-want-to-monitor-co" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" fill="#000000">
+                        <tspan x="10" y="32">I want to monitor comments on my fundraiser page</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(165.000000, 250.000000)">
+                    <rect id="Rectangle-1" stroke="#979797" stroke-width="0.5" fill="#FFFFFF" x="0" y="0" width="620" height="50"></rect>
+                    <text id="I-want-to-sign-up-fo" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" fill="#000000">
+                        <tspan x="10" y="32">I want to sign up for an account</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(165.000000, 300.000000)">
+                    <rect id="Rectangle-1" stroke="#979797" stroke-width="0.5" fill="#FFFFFF" x="0" y="0" width="620" height="50"></rect>
+                    <text id="I-want-to-browse-loc" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" fill="#000000">
+                        <tspan x="10" y="32">I want to browse local charities that I can donate to </tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(165.000000, 350.000000)">
+                    <rect id="Rectangle-1" stroke="#979797" stroke-width="0.5" fill="#FFFFFF" x="0" y="0" width="620" height="50"></rect>
+                    <text id="I-want-to-donate" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" fill="#000000">
+                        <tspan x="10" y="32">I want to donate</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(165.000000, 400.000000)">
+                    <rect id="Rectangle-1" stroke="#979797" stroke-width="0.5" fill="#FFFFFF" x="0" y="0" width="620" height="50"></rect>
+                    <text id="I-want-to-track-my-d" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" fill="#000000">
+                        <tspan x="10" y="32">I want to track my donations</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

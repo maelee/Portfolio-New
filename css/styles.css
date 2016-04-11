@@ -8,35 +8,34 @@ body {
 }
 
 body {
-   font-family: "Lato", Helvetica, Arial, sans-serif;
-   color:#333333;
+  color:#333333;
 }
 
 .main {
   height:100%;
 }
 .myname {
- margin-top: 20px;
- margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 h1 {
- font-family: "Croissant One", Fugaz One, Arial, sans-serif;
- font-size: 64px;
+  font-family: 'Croissant One', cursive;
+  font-size: 64px;
 }
 h2 {
- font-family: "Raleway", Helvetica, Arial, sans-serif;
- font-size:25px;
- font-weight: normal;
- text-transform: uppercase;
- text-align: center;
- margin-top: 0;
- margin-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-size:25px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 p {
- font-family: "Open Sans", Helvetica, Arial, sans-serif;
- font-size:18px;
- line-height: 27px;
- font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size:18px;
+  line-height: 27px;
+  font-weight: normal;
 }
 .avatar {
   width: 150px;
@@ -50,7 +49,7 @@ p {
   display: block;
   margin-top: 20px;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
 
 /* Navigatigon */
@@ -88,15 +87,12 @@ p {
     height: 100%;
     padding: 5%;
   }
-
-.nav-toggle {
-  cursor:pointer;
-  position: fixed;
-  left: 20px;
-  top: 20px;
-  padding-right: 0;
+.nav-toggle .menu {
+  width: 30px;
+  height: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
-
 /* Section */
 .page-section {
   right: 0;
