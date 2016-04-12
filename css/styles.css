@@ -9,6 +9,11 @@ body {
 
 body {
   color:#333333;
+  overflow: hidden;
+}
+
+body.body-scroll {
+  overflow: inherit;
 }
 
 .main {
@@ -96,7 +101,8 @@ p {
 /* Section */
 .page-section {
   right: 0;
-  overflow-y: scroll;
+  overflow: scroll;
   width: 50%;
   float:right;
+  height: 100vh;
 }
