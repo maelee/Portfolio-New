@@ -10,7 +10,6 @@
   <link href='https://fonts.googleapis.com/css?family=Poller+One|Droid+Sans|Open+Sans' rel='stylesheet' type='text/css'>
   <!-- CSS -->
   <link type="text/css" rel="stylesheet" href="../css/reset.css">
-  <link type="text/css" rel="stylesheet" href="../css/styles.css"/>
   <link type="text/css" rel="stylesheet" href="../css/paycrave.css"/>
   <script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
 
@@ -19,14 +18,23 @@
   <main role="main" class="main">
     <section role="region" class="project-intro">
       <div class="content">
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Menu</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="../index.html">Home</a>
+            <a href="../work.html">Work</a>
+            <a href="../about.html">About</a>
+            <a href="../contact.html">Contact</a><
+          </div>
+         </div>
         <img src="../images/paycrave-logo.png" class="paycrave-logo">
       </div>
     </section>
     <section role="region" class="stories">
     <div class="container"</div>
       <div class="user-stories">
-        <h2>User Stories</h2>
-        <p>Paycrave was my first UX design project for Bloc. The use case presented stated the following: "Several mobile payment solutions exist currently, like Square Cash or PayPal mobile. However when pertaining to food trucks, a well-designed solution hasn't been created. This consumer app allows users to discover nearby food trucks, and select food to purchase. Users can also view their previous transactions, and provide feedback for each food truck they've purchased from." I began constructing user flows for each story that was presented.</p>
+        <h2 class="title">User Stories</h2>
+        <p class="text">Paycrave was my first UX design project for Bloc. The use case presented stated the following: "Several mobile payment solutions exist currently, like Square Cash or PayPal mobile. However when pertaining to food trucks, a well-designed solution hasn't been created. This consumer app allows users to discover nearby food trucks, and select food to purchase. Users can also view their previous transactions, and provide feedback for each food truck they've purchased from." I began constructing user flows for each story that was presented.</p>
         <div class="user-chart">
           <img src="../images/user-stories.svg" class="chart">
           <img src="../images/paycrave-userflow.svg" class="draw-chart">
@@ -37,8 +45,8 @@
     <section role="region" class="project-brand">
     <div class="container"</div>
       <div class="brand-content">
-        <h2>Style Guide</h2>
-        <p>For this project with Bloc, a styleguide was provided. I used the logo they created, although I layered it to provide a raised effect. I also incorporated the suggested color palette.</p>
+        <h2 class="title">Style Guide</h2>
+        <p class="text">For this project with Bloc, a styleguide was provided. I used the logo they created, although I layered it to provide a raised effect. I also incorporated the suggested color palette.</p>
         <img src="../images/style-guide.svg" class="style-guide">
       </div>
     </div>
@@ -46,8 +54,8 @@
     <section role="region" class="items">
     <div class="container"</div>
       <div class="design">
-        <h2>Building the experience</h2>
-        <p>I began designing mockups for the Paycrave app, and used both dark and light schemes for the inital search pages. I requested a preference test on Usability Hub in order to decide which design was would provide a better experience. The light version was chosen 75% while the dark version was only chosen 25% of the time. Needless to say, I used the light version.</p>
+        <h2 class="title">Building the experience</h2>
+        <p class="text">I began designing mockups for the Paycrave app, and used both dark and light schemes for the inital search pages. I requested a preference test on Usability Hub in order to decide which design was would provide a better experience. The light version was chosen 75% while the dark version was only chosen 25% of the time. Needless to say, I used the light version.</p>
         <div class="paycrave-test">
           <img src="../images/darktest.png" class="test-detail">
           <img src="../images/lighttest.png" class="test-detail">
@@ -58,7 +66,7 @@
     <section role="region" class="items">
     <div class="container"</div>
       <div class="product">
-        <h2>The finished product</h2>
+        <h2 class="title">The finished product</h2>
         <div class="paycrave-images">
           <img src="../images/home-phone.png" class="paycrave-profile">
           <img src="../images/profile-phone.png" class="paycrave-profile">
@@ -78,4 +86,31 @@
  jQuery(".nav-toggle").click(function () {
     jQuery("body").toggleClass("nav-open");
 });
+</script>
+ <script>
+ jQuery(".nav-toggle").click(function () {
+    jQuery("body").toggleClass("nav-open");
+});
+</script>
+<script>
+ /* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
 </script>

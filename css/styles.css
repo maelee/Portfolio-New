@@ -19,42 +19,40 @@ body.body-scroll {
 .main {
   height:100%;
 }
-.myname {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
 h1 {
   font-family: 'Croissant One', cursive;
   font-size: 64px;
+  color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
 }
-h2 {
+.content h2 {
   font-family: 'Raleway', sans-serif;
   font-size:25px;
   font-weight: normal;
   text-transform: uppercase;
   text-align: center;
+  color: #FFFFFF;
   margin-top: 0;
-  margin-bottom: 30px;
+  padding-top: 90%;
 }
 p {
   font-family: 'Open Sans', sans-serif;
   font-size:18px;
   line-height: 27px;
   font-weight: normal;
+  color: #FFFFFF;
 }
-.avatar {
-  width: 150px;
-  height: 150px;
-  /* fill the container, preserving aspect ratio, and cropping to fit */
+.profile { 
+  width: 100%;
+  opacity: 0.3;
+  position: absolute;
   background-size: cover;
-  /* center the image vertically and horizontally */
-  background-position: center;
-  /* round the edges to a circle with border radius 1/2 container size */
-  border-radius: 50%;
-  display: block;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
+}
+.content {
+  height: 400px;
+  width: 400px;
+  position: relative;
 }
 
 /* Navigatigon */
@@ -79,6 +77,7 @@ p {
 .page-navigation ul li {
   list-style: none;
   text-align: center;
+  color: #FFFFFF;
 }
 .page-navigation ul li a {
   color: #FFFFFF;
@@ -86,11 +85,12 @@ p {
   list-style: none;
   text-align: center;
 }
-
+.page-navigation ul li a:hover {
+  text-decoration: underline;
+}
 .page-section .content {
     width: 100%;
     height: 100%;
-    padding: 5%;
   }
 .nav-toggle .menu {
   width: 30px;
@@ -100,6 +100,7 @@ p {
 }
 /* Section */
 .page-section {
+  background: #333333;
   right: 0;
   overflow: scroll;
   width: 50%;
