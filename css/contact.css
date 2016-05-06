@@ -58,13 +58,12 @@ p {
   height: 100vh;
 }
 .avatar {
-  width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 125px;
   border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20%;
 }
 .hello {
   font-size: 40px;
@@ -111,7 +110,13 @@ p {
 .page-navigation ul li a:hover {
   text-decoration: underline;
 }
-
+.nav-toggle {
+  cursor:pointer;
+  position: fixed;
+  left: 15px;
+  top: 15px;
+  padding-right: 0;
+}
 .nav-toggle .menu {
   width: 30px;
   height: 30px;
@@ -124,14 +129,7 @@ p {
   h1 {
     font-size: 35px;
     text-align: center;
-    padding-right: 50px;
     }
-  h2 {
-    font-size:20px;
-    margin-top: 0;
-    margin-bottom: 30px;
-    padding-right: 50px;
-  }
   h3, h4 {
     text-align: center;
   }
@@ -141,6 +139,9 @@ p {
    text-align: center;
    padding-left: 10px;
    padding-right: 10px;
+  }
+  .hello {
+    padding-top: 15%;
   }
   .avatar {
     width: 100px;
@@ -166,9 +167,9 @@ p {
 }
 @media screen and (min-width: 768px) {
   h1 {
-  font-size: 45px;
-  text-align: center;
-  padding-right: 40px;
+    font-size: 45px;
+    text-align: center;
+    padding-right: 40px;
   }
   h3, h4 {
     text-align: center;
@@ -184,9 +185,6 @@ p {
   }
   .avatar {
     padding-top: 15px;
-  }
-  .page-navigation {
-    padding-top: 30px;
   }
   .nav-toggle {
     display: none;

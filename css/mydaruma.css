@@ -6,6 +6,9 @@ body {
   height: 100%;
   margin: 0px;
 }
+body {
+  color:#333333;
+}
 h2 {
   font-family: 'Poller One', cursive;
   font-size: 30px;
@@ -23,6 +26,27 @@ p {
 body {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   color:#333333;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FF6663;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    color: #333;
+    background-color: #FFFFFF;
 }
 .title {
   margin-left: auto;
@@ -181,57 +205,7 @@ body {
   padding-bottom: 80px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
 }
-.nav-toggle .menu {
-  width: 30px;
-  height: 30px;
-  margin-left: 30px;
-  margin-top: 30px;
-}
-/* Dropdown Button */
-.dropbtn {
-    background-color: #FF6663;
-    color: white;
-    padding: 16px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
 
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-    color: #E0FF4F;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #FFFFFF;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    font-family: 'Open Sans', sans-serif;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #FF6663}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
 /* Medium and small screens */
 @media screen and (max-width: 767px) {
   html { font-size: 112%; }
@@ -277,13 +251,6 @@ body {
   .daruma-detail {
     height: 75%;
     width: 75%;
-  }
-  .nav-toggle .menu {
-    cursor: pointer;
-    position: fixed;
-    left: 20px;
-    top: 20px;
-    padding-right: 0;
   }
 }
 @media screen and (min-width: 768px) {

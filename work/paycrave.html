@@ -11,22 +11,18 @@
   <!-- CSS -->
   <link type="text/css" rel="stylesheet" href="../css/reset.css">
   <link type="text/css" rel="stylesheet" href="../css/paycrave.css"/>
-  <script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
 
  </head>
  <body>
   <main role="main" class="main">
     <section role="region" class="project-intro">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../work.html">Work</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
       <div class="content">
-        <div class="dropdown">
-          <button onclick="myFunction()" class="dropbtn">Menu</button>
-          <div id="myDropdown" class="dropdown-content">
-            <a href="../index.html">Home</a>
-            <a href="../work.html">Work</a>
-            <a href="../about.html">About</a>
-            <a href="../contact.html">Contact</a><
-          </div>
-         </div>
         <img src="../images/paycrave-logo.png" class="paycrave-logo">
       </div>
     </section>
@@ -78,39 +74,11 @@
       </div>
     </div>
     </section>
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../work.html">Work</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
   </main>
-  <p class="nav-toggle"><img src="../images/menu.png" class="menu"></p>
  </body>
-
- <script>
- jQuery(".nav-toggle").click(function () {
-    jQuery("body").toggleClass("nav-open");
-});
-</script>
- <script>
- jQuery(".nav-toggle").click(function () {
-    jQuery("body").toggleClass("nav-open");
-});
-</script>
-<script>
- /* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>

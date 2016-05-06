@@ -11,6 +11,7 @@
   <!-- CSS -->
   <link type="text/css" rel="stylesheet" href="css/reset.css">
   <link type="text/css" rel="stylesheet" href="css/work.css"/>
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
 
  </head>
  <body>
@@ -20,14 +21,17 @@
       <div class="container">
         <img src="images/daruma.png">
         <div class="project-link"><h2><a href="work/mydaruma.html">My Daruma</a></h2></div>
+        <a href="work/mydaruma.html" class="button">View case study</a>
       </div>
       <div class="container">
         <img src="images/paycrave-home.png">
         <div class="project-link"><h2><a href="work/paycrave.html">Paycrave</a></h2></div>
+        <a href="work/paycrave.html" class="button">View case study</a>
       </div>
       <div class="container">
         <img src="images/blocstarter.png">
         <div class="project-link"><h2><a href="work/blocstarter.html">Blocstarter</a></h2></div>
+        <a href="work/blocstarter.html" class="button-last">View case study</a>
       </div>
     </section>
     <aside role="aside" class="page-sidebar">
@@ -41,4 +45,11 @@
       </nav>
     </aside>
   </main>
+  <p class="nav-toggle"><img src="images/menu.png" class="menu"></p>
  </body>
+
+ <script>
+ jQuery(".nav-toggle").click(function () {
+    jQuery("body").toggleClass("nav-open");
+ });
+ </script>
