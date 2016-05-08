@@ -7,7 +7,7 @@ body {
   margin: 0px;
 }
 h2 {
-  font-family: 'Poller One', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 30px;
   text-transform: none;
   max-width: 70%;
@@ -16,17 +16,16 @@ h2 {
   margin-bottom: 30px;
 }
 h3 {
-  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
   font-size: 30px;
   text-align: center;
 }
-p {
-  font-family: 'Open Sans', sans-serif;
+p { 
   font-size:18px;
   line-height: 27px;
 }
 body {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color:#333333;
 }
 ul {
@@ -156,7 +155,8 @@ li a:hover {
 }
 
 .persona-images {
-  max-width: 60%;
+  max-width: 70%;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -173,7 +173,6 @@ li a:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
   margin-left: auto;
   margin-right: 20px;
-
 }
 .design {
   background: #F2F2F2;
@@ -182,8 +181,11 @@ li a:hover {
   padding: 3%;
   margin: auto;
 }
-.design .daruma-images {
+.daruma-images {
+  max-width: 60%;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .design .text {
   max-width: 60%;
@@ -197,10 +199,17 @@ li a:hover {
 }
 .daruma-detail {
   display: inline-block;
-  height: 200px;
+  width: 40%;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
   margin-left: auto;
   margin-right: auto;
+}
+.daruma-detail1 {
+  display: inline-block;
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+  margin-left: auto;
+  margin-right: 20px;
 }
 .site-images h2 {
   padding-top: 40px;

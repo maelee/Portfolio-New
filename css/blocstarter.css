@@ -6,11 +6,8 @@ body {
   height: 100%;
   margin: 0px;
 }
-body {
-  color:#333333;
-}
 h2 {
-  font-family: 'Poller One', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 30px;
   text-transform: none;
   max-width: 70%;
@@ -18,79 +15,113 @@ h2 {
   margin-top: 0;
   margin-bottom: 30px;
 }
-p {
-  font-family: 'Open Sans', sans-serif;
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+p { 
   font-size:18px;
   line-height: 27px;
 }
-.title {
-  margin-left: auto;
-  margin-right: auto; 
+body {
+  font-family: 'Open Sans', sans-serif;
+  color:#333333;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FF6663;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 li {
-    float: left;
+    float: right;
 }
 li a {
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: #333333;
 }
 li a:hover {
-    color: #333;
-    background-color: #FFFFFF;
+    color: #FF6663;
+    border: 1px solid #FF6663;
 }
-.project-intro {
-  background: #333333;
+.name {
+  font-family: 'Oleo Script', cursive;
+  font-size: 30px;
+  float: left;
+  padding-left: 15%;
+}
+.outer {
+  padding-right: 15%;
+}
+.menu {
   float: none;
   width: 100%;
 }
-
+.project-intro {
+  float: none;
+  width: 100%;
+}
 .project-intro .content {
-  width: 80%;
+  width: 90%;
   height: 100%;
-  padding: 5%;
+  padding: 3%;
   margin-left: auto;
   margin-right: auto;
 }
-.blocstarter-logo {
+.content h3 {
+  padding-top: 20px;
+}
+.blocstarter-laptop {
   width: 60%;
   height: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   vertical-align: middle;
+  padding-bottom: 30px;
+}
+.content .intro {
+  color:#333333;
+  font-size:18px;
+  line-height: 27px;
+  text-transform: none;
+  text-align: left;
+  max-width: 60%;
+  margin-top: 0;
+  margin-left: auto;
+  margin-bottom: 0;
+  margin-right: auto;
 }
 .content p {
   text-align: center;
   color: #FF6663;
   text-transform: uppercase;
   font-size: 16px;
+  line-height: 0;
+  padding-bottom: 30px;
 }
-.container {
-  background: #0B3954;
-}
-.container .user-stories {
-  padding-top: 40px;
-  background: #E3E5E4;
+.user-stories {
+  background: #F2F2F2;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
-  max-width: 80%;
+  max-width: 100%;
+  padding: 3%;
   margin: auto;
 }
-.stories .user-stories {
-  background: #FFFFFF;
-  padding-top: 40px;
+.title {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto; 
 }
 .user-stories .text {
-  max-width: 70%;
+  max-width: 60%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 40px;
@@ -112,15 +143,16 @@ li a:hover {
   margin-left: auto;
   margin-right: auto;
 }
-.container .brand-content {
+.brand-content {
   padding-top: 40px;
+  padding-bottom: 40px;
   background: #FFFFFF;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
-  max-width: 80%;
+  max-width: 100%;
   margin: auto;
 }
 .brand-content .text {
-  max-width: 70%;
+  max-width: 60%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 40px;
@@ -132,20 +164,15 @@ li a:hover {
   margin-left: auto;
   margin-right: auto;
   vertical-align: middle;
-  padding-bottom: 40px;
-}
-.container .design {
-  padding-top: 40px;
-  background: #E3E5E4;
+  margin-bottom: 40px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
-  max-width: 80%;
-  margin: auto;
 }
 .design {
   padding-top: 40px;
-  max-width: 60%;
-  background: #E3E5E4;
+  background: #F2F2F2;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+  max-width: 100%;
+  margin: auto;
 }
 .daruma-images {
   background: #E3E5E4;
@@ -154,39 +181,101 @@ li a:hover {
 }
 .design .onboarding {
   text-align: center;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 40px;
 }
 .design .text {
-  max-width: 70%;
+  max-width: 60%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 40px;
 }
 .mockups {
   display: inline-block;
-  height: 200px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+  height: 300px;
+  box-shadow: rgba(68, 68, 68, 0.2) 1px 2px 3px 1px;
   margin-left: auto;
   margin-right: auto;
 }
-.container .site-images {
-  background: #0B3954;
+.site-images {
+  background: #FFFFFF;
   max-width: 80%;
   margin: auto;
 }
 .site-images h2 {
   padding-top: 40px;
-  color: #FFFFFF;
 }
 .site-images .homepage {
-  max-width: 100%;
+  max-width: 70%;
   background-size: cover;
   background-position: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+}
+.contact-cta {
+  background: #F2F2F2;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+  max-width: 100%;
+  margin: auto;
+  padding: 7%;
+}
+.contact-cta .title {
+  text-align: center;
+}
+.button {
+  background-color: #FF6663;     
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.footer {
+  background: #147FCC;
+  color: #333333;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+  width: 100%;
+  margin: auto;
+  padding: 1%;
+}
+.social-icons {
+  max-width: 50%;
+}
+.social-link {
+  float: left;
+  display: block;
+  text-decoration: none;
+}
+.footer-text {
+  font-size: 14px;
+  max-width: 50%;
+  margin-left: 10%;
+}
+.footer ul {
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  margin-left: 20%;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  background-color: #147FCC;
 }
 
 /* Medium and small screens */
